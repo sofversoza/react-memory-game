@@ -3,10 +3,35 @@
 }
 
 .card img {
-  width: 160px;
-  height: 160px;
+  width: 165px;
+  height: 165px;
   display: block;
-  border: 2px solid rgb(118, 131, 203);
+  border: 5px solid rgb(252, 253, 253);
   border-radius: 6px;
   background: white;
+}
+
+/* front of card - the picture */
+.card .front {
+  /* rotating up */
+  transform: rotateY(90deg);
+  /* absolute relative to the parent (.card) so it sits on top of it */
+  position: absolute;
+  transition: all ease-in 0.2s;
+}
+
+.flipped .front {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+
+/* back of the card - cover */
+.card .back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
 }

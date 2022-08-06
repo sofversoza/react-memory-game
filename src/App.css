@@ -1,21 +1,32 @@
 .App {
-  max-width: 860px;
-  margin: 40px auto;
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.App h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  margin-block-end: 0.3em;
+  /* text-transform: uppercase; */
 }
 
 button {
-  background: none;
-  border: 2px solid #fff;
+  background: #fff;
+  border: 1px solid #fff;
   padding: 6px 12px;
   border-radius: 4px;
-  color: #fff;
-  font-weight: bold;
+  color: rgb(149, 146, 157);
   cursor: pointer;
   font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1.5px;
 }
 
 button:hover {
-  background: #c23866;
+  background: #f089ab;
   color: #fff;
 }
 
@@ -23,5 +34,5 @@ button:hover {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
 }
