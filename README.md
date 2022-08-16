@@ -1,8 +1,6 @@
-# `Match the Cats! 🐈 🐈‍⬛ 🐈`
+# Match the Cats! 🐈 🐈‍⬛ 🐈
+### `A React Memory Game deployed with Netlify`
 https://match-the-cats.netlify.app/
-
-
-### A React Memory Game deployed with Netlify
 
 <img width="1725" alt="Screen Shot 2022-08-16 at 2 45 27 PM" src="https://user-images.githubusercontent.com/92960864/184990896-5b40941d-aefd-4816-b40a-3d569b3768a7.png">
 
